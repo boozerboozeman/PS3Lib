@@ -670,7 +670,7 @@ namespace PS3Lib
         {
             if (string.IsNullOrEmpty(consoleID))
             {
-                MessageBox.Show("Cannot send an empty value", "Empty or null console id", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Cannot set an empty value", "Console ID cannot be NULL", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return -1;
             }
             string newCID = String.Empty;
@@ -684,7 +684,7 @@ namespace PS3Lib
         {
             if (consoleID.Length <= 0)
             {
-                MessageBox.Show("Cannot send an empty value", "Empty or null console id", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Cannot set an empty value", "Console ID cannot be NULL", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return -1;
             }
             return setConsoleIds((int)IdType.IDPS, consoleID);
@@ -695,7 +695,7 @@ namespace PS3Lib
         {
             if (string.IsNullOrEmpty(PSID))
             {
-                MessageBox.Show("Cannot send an empty value", "Empty or null psid", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Cannot set an empty value", "PSID cannot be NULL", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return -1;
             }
             string PS_ID = String.Empty;
@@ -709,7 +709,7 @@ namespace PS3Lib
         {
             if (consoleID.Length <= 0)
             {
-                MessageBox.Show("Cannot send an empty value", "Empty or null psid", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Cannot set an empty value", "PSID cannot be NULL", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return -1;
             }
             return setConsoleIds((int)IdType.PSID, consoleID);
