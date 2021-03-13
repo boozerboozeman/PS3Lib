@@ -331,7 +331,7 @@ namespace PS3Lib
                             LoadApi = Assembly.LoadFile(x86);
                         else
                         {
-                            MessageBox.Show("Target Manager API cannot be founded to:\r\n\r\n" + x86, "Error with PS3 API!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Target Manager API cannot be found at:\r\n\r\n" + x86, "Error with PS3 API!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                 }

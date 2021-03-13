@@ -314,13 +314,13 @@ namespace PS3Lib
                     {
                         case "btnConnect": return "Connection";
                         case "btnRefresh": return "Refresh";
-                        case "errorSelect": return "You need to select a console first.";
+                        case "errorSelect": return "You need to first select a console.";
                         case "errorSelectTitle": return "Select a console.";
                         case "selectGrid": return "Select a console within this grid.";
                         case "selectedLbl": return "Selected :";
                         case "formTitle": return "Select a console...";
-                        case "noConsole": return "None consoles available, run CCAPI Manager (v2.60+) and add a new console.";
-                        case "noConsoleTitle": return "None console available.";
+                        case "noConsole": return "No consoles available, run CCAPI Manager and add a new console.";
+                        case "noConsoleTitle": return "No consoles available.";
                     }
                 }
                 return "?";
