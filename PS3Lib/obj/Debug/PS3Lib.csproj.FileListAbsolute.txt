@@ -1,0 +1,6 @@
+C:\Users\cat\Documents\PS3Lib\PS3Lib\obj\Debug\PS3Lib.csprojAssemblyReference.cache
+C:\Users\cat\Documents\PS3Lib\PS3Lib\obj\Debug\PS3Lib.csproj.CoreCompileInputs.cache
+C:\Users\cat\Documents\PS3Lib\PS3Lib\bin\Debug\PS3Lib.dll
+C:\Users\cat\Documents\PS3Lib\PS3Lib\bin\Debug\PS3Lib.pdb
+C:\Users\cat\Documents\PS3Lib\PS3Lib\obj\Debug\PS3Lib.dll
+C:\Users\cat\Documents\PS3Lib\PS3Lib\obj\Debug\PS3Lib.pdb
